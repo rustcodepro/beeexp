@@ -1,0 +1,13 @@
+[package]
+name = "beeexp"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+augurs = { version = "0.10.1", features = ["full"] }
+build = "0.0.2"
+clap = { version = "4.5.56", features = ["derive"] }
+figlet-rs = "0.1.5"
+rayon = "1.11.0"
+smartcore = "0.4.9"
+sqlx = { version = "0.8.6", features = ["mysql", "sqlite"] }
